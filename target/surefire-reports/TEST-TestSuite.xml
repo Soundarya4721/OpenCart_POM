@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="38.552" tests="13" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ltatavarthy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9"/>
+    <property name="user.name" value="ltatavarthy"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/s8/_75wl6b15gncqky57ghfqkw80000gn/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="/Users/ltatavarthy/EclipsPractice/Opencart_Pom"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ltatavarthy/EclipsPractice/Opencart_Pom"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/ltatavarthy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.1+9"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="verifyEditAccountTest" classname="com.opencart.testcases.AccountPageFeatureTest" time="1.506"/>
+  <testcase name="EditFields" classname="com.opencart.testcases.AccountPageFeatureTest" time="0.375"/>
+  <testcase name="clickcntuebtn" classname="com.opencart.testcases.AccountPageFeatureTest" time="4.287"/>
+  <testcase name="verifysuccessBanner" classname="com.opencart.testcases.AccountPageFeatureTest" time="0.064"/>
+  <testcase name="testverifyTitle" classname="com.opencart.testcases.LoginFeatureTest" time="0.023"/>
+  <testcase name="testifSignuplinkexists" classname="com.opencart.testcases.LoginFeatureTest" time="0.079"/>
+  <testcase name="verifyloginBanner" classname="com.opencart.testcases.LoginFeatureTest" time="0.368">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;wel&apos;]/h2)[last()]&quot;}&#10;  (Session info: chrome=88.0.4324.96)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;USHYDLTATAVART2&apos;, ip: &apos;fe80:0:0:0:c5e:9bfb:983a:a6f0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.zxs4LS}, goog:chromeOptions: {debuggerAddress: localhost:36583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f8366e2dfbacfded53c51d1a4cf...}&#10;Session ID: f8366e2dfbacfded53c51d1a4cf0a242&#10;*** Element info: {Using=xpath, value=(//div[@class=&apos;wel&apos;]/h2)[last()]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='wel']/h2)[last()]"}
+  (Session info: chrome=88.0.4324.96)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USHYDLTATAVART2', ip: 'fe80:0:0:0:c5e:9bfb:983a:a6f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.zxs4LS}, goog:chromeOptions: {debuggerAddress: localhost:36583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f8366e2dfbacfded53c51d1a4cf...}
+Session ID: f8366e2dfbacfded53c51d1a4cf0a242
+*** Element info: {Using=xpath, value=(//div[@class='wel']/h2)[last()]}
+	at com.opencart.testcases.LoginFeatureTest.verifyloginBanner(LoginFeatureTest.java:48)
+</failure>
+    <system-out><![CDATA[am in onstart methodverifyloginBanner
+verifyloginBanner started!
+am in testfailure methodverifyloginBanner
+screenshot captured for the test methodverifyloginBanner
+verifyloginBanner failed!
+]]></system-out>
+  </testcase>
+  <testcase name="testLogin" classname="com.opencart.testcases.LoginFeatureTest" time="7.74"/>
+  <testcase name="verifyHomePagetitletest" classname="com.opencart.testcases.HomePageFeatureTest" time="0.018"/>
+  <testcase name="verifyAccountTitle" classname="com.opencart.testcases.HomePageFeatureTest" time="0.089"/>
+  <testcase name="verifyMyaccountSectioncount" classname="com.opencart.testcases.HomePageFeatureTest" time="0.02"/>
+  <testcase name="verifyMyaccountList" classname="com.opencart.testcases.HomePageFeatureTest" time="0.078"/>
+  <testcase name="verifyEditAccountTest" classname="com.opencart.testcases.HomePageFeatureTest" time="1.336"/>
+</testsuite>

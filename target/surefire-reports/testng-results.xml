@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-02T16:53:29Z" name="Test Automation Regression Suite Opencart" finished-at="2021-02-02T16:54:06Z" duration-ms="37548">
+    <groups>
+    </groups>
+    <test started-at="2021-02-02T16:53:29Z" name="AccountPage Test" finished-at="2021-02-02T16:53:45Z" duration-ms="16117">
+      <class name="com.opencart.testcases.AccountPageFeatureTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.testcases.AccountPageFeatureTest@771d1ffb]" started-at="2021-02-02T16:53:29Z" name="setUp" finished-at="2021-02-02T16:53:33Z" duration-ms="4196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="AccountPageSetup()[pri:0, instance:com.opencart.testcases.AccountPageFeatureTest@771d1ffb]" started-at="2021-02-02T16:53:33Z" name="AccountPageSetup" finished-at="2021-02-02T16:53:38Z" duration-ms="5540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountPageSetup -->
+        <test-method signature="verifyEditAccountTest()[pri:1, instance:com.opencart.testcases.AccountPageFeatureTest@771d1ffb]" started-at="2021-02-02T16:53:38Z" name="verifyEditAccountTest" finished-at="2021-02-02T16:53:40Z" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditAccountTest -->
+        <test-method signature="EditFields()[pri:2, instance:com.opencart.testcases.AccountPageFeatureTest@771d1ffb]" started-at="2021-02-02T16:53:40Z" name="EditFields" finished-at="2021-02-02T16:53:40Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditFields -->
+        <test-method signature="clickcntuebtn()[pri:3, instance:com.opencart.testcases.AccountPageFeatureTest@771d1ffb]" started-at="2021-02-02T16:53:40Z" name="clickcntuebtn" finished-at="2021-02-02T16:53:45Z" duration-ms="4288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcntuebtn -->
+        <test-method signature="verifysuccessBanner()[pri:4, instance:com.opencart.testcases.AccountPageFeatureTest@771d1ffb]" started-at="2021-02-02T16:53:45Z" name="verifysuccessBanner" finished-at="2021-02-02T16:53:45Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysuccessBanner -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.AccountPageFeatureTest@771d1ffb]" started-at="2021-02-02T16:53:45Z" name="teardown" finished-at="2021-02-02T16:53:45Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.opencart.testcases.AccountPageFeatureTest -->
+    </test> <!-- AccountPage Test -->
+    <test started-at="2021-02-02T16:53:29Z" name="LoginPage Test" finished-at="2021-02-02T16:53:56Z" duration-ms="27820">
+      <class name="com.opencart.testcases.LoginFeatureTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.testcases.LoginFeatureTest@7c84195]" started-at="2021-02-02T16:53:29Z" name="setUp" finished-at="2021-02-02T16:53:48Z" duration-ms="19531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testverifyTitle()[pri:1, instance:com.opencart.testcases.LoginFeatureTest@7c84195]" started-at="2021-02-02T16:53:48Z" name="testverifyTitle" finished-at="2021-02-02T16:53:48Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testverifyTitle -->
+        <test-method signature="testifSignuplinkexists()[pri:2, instance:com.opencart.testcases.LoginFeatureTest@7c84195]" started-at="2021-02-02T16:53:48Z" name="testifSignuplinkexists" finished-at="2021-02-02T16:53:48Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testifSignuplinkexists -->
+        <test-method signature="verifyloginBanner()[pri:3, instance:com.opencart.testcases.LoginFeatureTest@7c84195]" started-at="2021-02-02T16:53:48Z" name="verifyloginBanner" finished-at="2021-02-02T16:53:48Z" duration-ms="43" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='wel']/h2)[last()]"}
+  (Session info: chrome=88.0.4324.96)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USHYDLTATAVART2', ip: 'fe80:0:0:0:c5e:9bfb:983a:a6f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.zxs4LS}, goog:chromeOptions: {debuggerAddress: localhost:36583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f8366e2dfbacfded53c51d1a4cf...}
+Session ID: f8366e2dfbacfded53c51d1a4cf0a242
+*** Element info: {Using=xpath, value=(//div[@class='wel']/h2)[last()]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='wel']/h2)[last()]"}
+  (Session info: chrome=88.0.4324.96)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USHYDLTATAVART2', ip: 'fe80:0:0:0:c5e:9bfb:983a:a6f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.zxs4LS}, goog:chromeOptions: {debuggerAddress: localhost:36583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f8366e2dfbacfded53c51d1a4cf...}
+Session ID: f8366e2dfbacfded53c51d1a4cf0a242
+*** Element info: {Using=xpath, value=(//div[@class='wel']/h2)[last()]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at com.qa.Opencart.utils.ElementUtil.getElement(ElementUtil.java:56)
+at com.qa.Opencart.utils.ElementUtil.dogetText(ElementUtil.java:122)
+at com.qa.Opencart.pages.LoginPage.getLoginBanner(LoginPage.java:64)
+at com.opencart.testcases.LoginFeatureTest.verifyloginBanner(LoginFeatureTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginBanner -->
+        <test-method signature="testLogin()[pri:4, instance:com.opencart.testcases.LoginFeatureTest@7c84195]" started-at="2021-02-02T16:53:49Z" name="testLogin" finished-at="2021-02-02T16:53:56Z" duration-ms="7739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.LoginFeatureTest@7c84195]" started-at="2021-02-02T16:53:56Z" name="teardown" finished-at="2021-02-02T16:53:56Z" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.opencart.testcases.LoginFeatureTest -->
+    </test> <!-- LoginPage Test -->
+    <test started-at="2021-02-02T16:53:29Z" name="HomePage Test" finished-at="2021-02-02T16:54:06Z" duration-ms="37547">
+      <class name="com.opencart.testcases.HomePageFeatureTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.testcases.HomePageFeatureTest@409986fe]" started-at="2021-02-02T16:53:29Z" name="setUp" finished-at="2021-02-02T16:54:00Z" duration-ms="31138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="homepageSetup()[pri:0, instance:com.opencart.testcases.HomePageFeatureTest@409986fe]" started-at="2021-02-02T16:54:00Z" name="homepageSetup" finished-at="2021-02-02T16:54:04Z" duration-ms="4794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageSetup -->
+        <test-method signature="verifyHomePagetitletest()[pri:1, instance:com.opencart.testcases.HomePageFeatureTest@409986fe]" started-at="2021-02-02T16:54:04Z" name="verifyHomePagetitletest" finished-at="2021-02-02T16:54:04Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePagetitletest -->
+        <test-method signature="verifyAccountTitle()[pri:2, instance:com.opencart.testcases.HomePageFeatureTest@409986fe]" started-at="2021-02-02T16:54:04Z" name="verifyAccountTitle" finished-at="2021-02-02T16:54:05Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountTitle -->
+        <test-method signature="verifyMyaccountSectioncount()[pri:3, instance:com.opencart.testcases.HomePageFeatureTest@409986fe]" started-at="2021-02-02T16:54:05Z" name="verifyMyaccountSectioncount" finished-at="2021-02-02T16:54:05Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyaccountSectioncount -->
+        <test-method signature="verifyMyaccountList()[pri:4, instance:com.opencart.testcases.HomePageFeatureTest@409986fe]" started-at="2021-02-02T16:54:05Z" name="verifyMyaccountList" finished-at="2021-02-02T16:54:05Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyaccountList -->
+        <test-method signature="verifyEditAccountTest()[pri:5, instance:com.opencart.testcases.HomePageFeatureTest@409986fe]" started-at="2021-02-02T16:54:05Z" name="verifyEditAccountTest" finished-at="2021-02-02T16:54:06Z" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditAccountTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageFeatureTest@409986fe]" started-at="2021-02-02T16:54:06Z" name="teardown" finished-at="2021-02-02T16:54:06Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.opencart.testcases.HomePageFeatureTest -->
+    </test> <!-- HomePage Test -->
+  </suite> <!-- Test Automation Regression Suite Opencart -->
+</testng-results>

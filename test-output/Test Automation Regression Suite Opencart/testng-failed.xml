@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Test Automation Regression Suite Opencart]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.Opencart.testlisteners.ExtentReportListener"/>
+    <listener class-name="com.qa.Opencart.testlisteners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="LoginPage Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.opencart.testcases.LoginFeatureTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyloginBanner"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.opencart.testcases.LoginFeatureTest -->
+    </classes>
+  </test> <!-- LoginPage Test(failed) -->
+</suite> <!-- Failed suite [Test Automation Regression Suite Opencart] -->

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.552 s <<< FAILURE! - in TestSuite
+verifyloginBanner(com.opencart.testcases.LoginFeatureTest)  Time elapsed: 0.368 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='wel']/h2)[last()]"}
+  (Session info: chrome=88.0.4324.96)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USHYDLTATAVART2', ip: 'fe80:0:0:0:c5e:9bfb:983a:a6f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.zxs4LS}, goog:chromeOptions: {debuggerAddress: localhost:36583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f8366e2dfbacfded53c51d1a4cf...}
+Session ID: f8366e2dfbacfded53c51d1a4cf0a242
+*** Element info: {Using=xpath, value=(//div[@class='wel']/h2)[last()]}
+	at com.opencart.testcases.LoginFeatureTest.verifyloginBanner(LoginFeatureTest.java:48)
+
